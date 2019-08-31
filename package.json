@@ -1,0 +1,25 @@
+{
+  "name": "headlines",
+  "version": "1.0.0",
+  "description": "RESTFul API to match headline and employee data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "mocha"
+  },
+  "author": "Scott D. Epter",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongojs": "^2.6.0"
+  }
+}
