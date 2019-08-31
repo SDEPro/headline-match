@@ -17,10 +17,12 @@ credits section
 ## Installation and Configuration
 1. Set your environment variables (see below for values). Create a ```.env``` file in the project directory. Your environment variables will live in this file.
 2. Install nodemon and required babel packages:
-..* ```npm install nodemon --save-dev```
-..* ```npm install @babel/core @babel/node --save-dev```
-..* ```npm install @babel/preset-env --save-dev```
-..* Create a ```.babelrc``` file in the main project directory, add the following to the ```.babelrc```:
+```
+npm install nodemon --save-dev
+npm install @babel/core @babel/node --save-dev
+npm install @babel/preset-env --save-dev
+```
+Create a ```.babelrc``` file in the main project directory that contains the following:
 ```
 {
   "presets": [
